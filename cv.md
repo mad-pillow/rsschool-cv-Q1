@@ -10,7 +10,7 @@ Higly reliable person with fifteen years of extensive experience in the maritime
 
 Consistently generate new ideas and concepts. Capable of planning ahead, setting priorities, delegating, making decisions and influencing people.
 
-First place holder of the Mariupol city Wide Scientific and Technical conference in 2001 in "Programming" category.
+**First place** holder of the Mariupol city Wide Scientific and Technical conference in 2001 in **"Programming"** category.
 
 Able to fast and easy learning of new things. Have extreme passion to studiing programming languages and becoming a web developer.
 
@@ -25,27 +25,27 @@ Although my previous experience is not connected to the target I am going to, I 
 ## **Skills** ![checkmark](check.png)
 
 1. Soft skills
-   - Active learnig
-   - Ability to work in a team environment
-   - Leadership
-   - Creative problem solving
-   - Expertise in troubleshooting
-   - Critical thinking
+   - `Active learnig`
+   - `Ability to work in a team environment`
+   - `Leadership`
+   - `Creative problem solving`
+   - `Expertise in troubleshooting`
+   - `Critical thinking`
 
 2. Tech skills
-   - HTML
-   - CSS
-   - Pure JavaScript
-   - BEM metodology
-   - SSAS / LESS
-   - GIT
-   - Github
+   - `HTML`
+   - `CSS`
+   - `Pure JavaScript`
+   - `BEM metodology`
+   - `SSAS / LESS`
+   - `GIT`
+   - `Github`
 
 3. as well as additional technical skills
-   - AutoCAD, SOLIDWORKS confident user
-   - Expert in 3D modelling and 3D Printing
-   - Good mathematical skills
-   - Competent in developing operation, technical manuals and other documentation
+   - `AutoCAD, SOLIDWORKS confident user`
+   - `Expert in 3D modelling and 3D Printing`
+   - `Good mathematical skills`
+   - `Competent in developing operation, technical manuals and other documentation`
    
 ## **Code sample** ![checkmark](check.png)
 
@@ -77,3 +77,8 @@ I have not got any special programming education except short free online webina
 skills, along with superb reading comprehension. English practised wisely on the previous work places.
 
 ---
+
+Tyler Perry sad:
+>Developing a good work ethics is key. Apply yourself at whatever you do, whether you're a janitor or taking your first summer job because that work ethics will be reflected in everything you do in life.     
+
+The qoute is from: (https://www.wisesayings.com/work-quotes/#ixzz6lFC2n84V)
