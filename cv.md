@@ -1,6 +1,8 @@
-<img align="right" src="avatar.jpg" />
-
 ## **DMYTRO SYCHOV** ![checkmark](check.png)
+
+---
+
+<img align="right" src="avatar.jpg" />
 
 | *Odessa city, Odessa reg., Ukraine, 65123* | Mob: *+380508736005* | Email: *dmtr.schv@gmail.com* |
 
