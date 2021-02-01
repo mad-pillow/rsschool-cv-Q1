@@ -78,7 +78,7 @@ skills, along with superb reading comprehension. English practised wisely on the
 
 ---
 
-Tyler Perry sad:
+Tyler Perry said:
 >Developing a good work ethics is key. Apply yourself at whatever you do, whether you're a janitor or taking your first summer job because that work ethics will be reflected in everything you do in life.     
 
 The qoute is from: (https://www.wisesayings.com/work-quotes/#ixzz6lFC2n84V)
