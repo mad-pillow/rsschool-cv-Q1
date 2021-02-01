@@ -1,14 +1,10 @@
-## **DMYTRO SYCHOV** ![checkmark](check.png)
-
----
+# **DMYTRO SYCHOV** ![checkmark](check.png)
 
 <img align="right" src="avatar.jpg" />
 
 | *Odessa city, Odessa reg., Ukraine, 65123* | Mob: *+380508736005* | Email: *dmtr.schv@gmail.com* |
 
-### **About me** ![checkmark](check.png)
-
----
+## **About me** ![checkmark](check.png)
 
 Higly reliable person with fifteen years of extensive experience in the maritime field, with proven performance in simple analysis, report writing, regulatory compliance and documentaion. CAD drafting professional with broad understanding of design and construction process with exceptional creativity, problem solving and interpersonal skills.
 
@@ -26,9 +22,7 @@ Although my previous experience is not connected to the target I am going to, I 
 | 2012-2018 | LERUS Limited | Technical director | Supervision, QMS, certification |
 | 2006-2012 | SIGO Marine | Engineer inspector | Technical surveys, reporting |
 
-### **Skills** ![checkmark](check.png)
-
----
+## **Skills** ![checkmark](check.png)
 
 1. Soft skills
    - Active learnig
@@ -53,9 +47,7 @@ Although my previous experience is not connected to the target I am going to, I 
    - Good mathematical skills
    - Competent in developing operation, technical manuals and other documentation
    
-### **Code sample** ![checkmark](check.png)
-
----
+## **Code sample** ![checkmark](check.png)
 
 ```
 openModalBtns.forEach((item) => {
@@ -66,15 +58,11 @@ openModalBtns.forEach((item) => {
   });
 ```
 
-### **Coding experiene** ![checkmark](check.png)
-
----
+## **Coding experiene** ![checkmark](check.png)
 
 I do not have any commercial coding experience.
 
-### **Education** ![checkmark](check.png)
-
----
+## **Education** ![checkmark](check.png)
 
 I have not got any special programming education except short free online webinars so far. Self learning is what I do for developing. As I stated above I had got the first place at the Mariupol city wide scientific and technical conference in 2001 in category "Programming" as a result of self learning (Delphi).
 
@@ -83,9 +71,9 @@ I have not got any special programming education except short free online webina
 | 2001-2006 | Odessa State Maritime Academy | Navigation |
 | 1998-2001 | Mariupol City Liceum | Phisics and mathematics |
 
-### **English** ![check](check.png)
-
----
+## **English** ![check](check.png)
 
 **B1 Upper Intermediate** level proved by **[IELTS](https://www.ielts.org/)** Report. Oral and written communication
 skills, along with superb reading comprehension. English practised wisely on the previous work places.
+
+---
