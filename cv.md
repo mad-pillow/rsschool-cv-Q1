@@ -1,4 +1,5 @@
 <img align="right" src="avatar.jpg" />
+
 ## **DMYTRO SYCHOV** ![checkmark](check.png)
 
 | *Odessa city, Odessa reg., Ukraine, 65123* | Mob: *+380508736005* | Email: *dmtr.schv@gmail.com* |
@@ -44,9 +45,45 @@ Although my previous experience is not connected to the target I am going to, I 
    - GIT
    - Github
 
-as well as additional technical skills
+3. as well as additional technical skills
    - AutoCAD, SOLIDWORKS confident user
    - Expert in 3D modelling and 3D Printing
    - Good mathematical skills
    - Competent in developing operation, technical manuals and other documentation
    
+### **Code sample** ![checkmark](check.png)
+
+---
+
+```
+openModalBtns.forEach((item) => {
+    item.addEventListener("click", (e) => {
+      e.preventDefault();
+      toggleModalWindow();
+    });
+  });
+```
+
+### **Coding experiene** ![checkmark](check.png)
+
+---
+
+I do not have any commercial coding experience.
+
+### **Education** ![checkmark](check.png)
+
+---
+
+I have not got any special programming education except short free online webinars so far. Self learning is what I do for developing. As I stated above I had got the first place at the Mariupol city wide scientific and technical conference in 2001 in category "Programming" as a result of self learning (Delphi).
+
+| Time period | Institute | Faculty |
+| :---------: | --------- | ------- |
+| 2001-2006 | Odessa State Maritime Academy | Navigation |
+| 1998-2001 | Mariupol City Liceum | Phisics and mathematics |
+
+### **English** ![check](check.png)
+
+---
+
+**B1 Upper Intermediate** level proved by **[IELTS](https://www.ielts.org/)** Report. Oral and written communication
+skills, along with superb reading comprehension. English practised wisely on the previous work places.
