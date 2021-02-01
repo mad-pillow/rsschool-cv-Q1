@@ -1,10 +1,10 @@
 # **DMYTRO SYCHOV** ![checkmark](check.png)
 
-<img align="right" src="avatar.jpg" />
-
 | *Odessa city, Odessa reg., Ukraine, 65123* | Mob: *+380508736005* | Email: *dmtr.schv@gmail.com* |
 
 ## **About me** ![checkmark](check.png)
+
+<img align="right" src="avatar.jpg" />
 
 Higly reliable person with fifteen years of extensive experience in the maritime field, with proven performance in simple analysis, report writing, regulatory compliance and documentaion. CAD drafting professional with broad understanding of design and construction process with exceptional creativity, problem solving and interpersonal skills.
 
