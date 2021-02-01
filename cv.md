@@ -1,4 +1,4 @@
-<img align="right" src="/images/avatar.jpg" />
+<img align="right" src="avatar.jpg" />
 
 ## **DMYTRO SYCHOV** ![checkmark](check.png)
 
