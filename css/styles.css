@@ -27,8 +27,9 @@ body {
 
 .wrapper {
   width: 1160px;
-  margin: 12px auto;
+  margin: 20px auto;
   padding: 40px 40px 40px 110px;
+  background-color: #fcfbf1;
   -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(0, 0, 0, 0.5);
   position: relative;
@@ -44,6 +45,7 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5), inset 0px 0px 5px rgba(0, 0, 0, 0.8);
           box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5), inset 0px 0px 5px rgba(0, 0, 0, 0.8);
+  background-color: #fff;
 }
 
 .wrapper:after {
@@ -137,22 +139,36 @@ hr {
   margin: 24px 0;
 }
 
-.me__name {
+.header {
+  position: relative;
+}
+
+.header__name {
   display: inline-block;
   font-size: 32px;
   line-height: 40px;
   font-weight: 600;
 }
 
-.me__contacts {
+.header__contacts {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
   margin-top: 12px;
 }
 
-.me__contacts--italic {
+.header__contacts--italic {
   font-style: italic;
+}
+
+header::before {
+  position: absolute;
+  content: '';
+  background-image: url("../images/paperclip.png");
+  width: 66px;
+  height: 120px;
+  top: -29px;
+  left: 10px;
 }
 
 .about-me__avatar {
