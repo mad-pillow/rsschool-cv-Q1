@@ -1,1 +1,92 @@
+@font-face {
+   font-family: 'Helvetica';
+   src: url('../fonts/Helvetica-Bold.ttf');
+   font-weight: bold;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'Helvetica';
+   src: url('../fonts/Helvetica-Normal.ttf');
+   font-weight: normal;
+   font-style: normal;
+}
+* {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: none;
+   box-sizing: border-box;
+}
+body {
+   font-family: 'Helvetica', sans-serif;
+}
+.wrapper {
+   width: 1012px;
+   margin: 0 auto;
+   padding: 0 16px;
+}
+.checkmark-icon {
+   margin-left: 5px;
+}
+.h1-container,
+.h2-container {
+   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+   padding-bottom: 8px;
+   margin: 30px 0 12px;
+}
+//------------------------ About me container
+.me {
+   &__name {
+      display: inline-block;
+      font-size: 32px;
+      line-height: 40px;
+      font-weight: 600;
+   }
 
+   &__contacts {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 400;
+      margin-top: 12px;
+   }
+
+   &__contacts--italic {
+      font-style: italic;
+   }
+}
+.about-me {
+   &__title {
+      display: inline-block;
+      font-size: 24px;
+      line-height: 30px;
+      font-weight: 600;
+   }
+
+   &__text {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 400;
+   }
+
+   &__avatar {
+      float: right;
+   }
+
+   &__experience-table {
+      border-collapse: collapse;
+      margin-top: 12px;
+   }
+   &__experience-row,
+   &__experience-header,
+   &__experience-cell {
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      font-size: 16px;
+      line-height: 24px;
+      padding: 6px 13px;
+   }
+
+   &__experience-cell:first-of-type {
+      text-align: center;
+   }
+}
+//----------------------- / About me container
