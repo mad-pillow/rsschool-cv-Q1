@@ -4,12 +4,16 @@
    font-weight: bold;
    font-style: normal;
 }
+
 @font-face {
    font-family: 'Helvetica';
    src: url('../fonts/Helvetica-Normal.ttf');
    font-weight: normal;
    font-style: normal;
 }
+
+//------------------------ Common
+
 * {
    margin: 0;
    padding: 0;
@@ -17,24 +21,122 @@
    outline: none;
    box-sizing: border-box;
 }
+
 body {
    font-family: 'Helvetica', sans-serif;
 }
+
 .wrapper {
-   width: 1012px;
-   margin: 0 auto;
-   padding: 0 16px;
+   width: 1160px;
+   margin: 12px auto;
+   padding: 40px 40px 40px 110px;
+   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(0, 0, 0, 0.5);
+   position: relative;
+   &:after,
+   &:before {
+      position: absolute;
+      //display: block;
+      content: '';
+      left: 40px;
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5), inset 0px 0px 5px rgba(0, 0, 0, 0.8);
+   }
+   &:after {
+      top: calc(50% + 250px);
+   }
+   &:before {
+      top: calc(50% - 250px);
+   }
 }
+
 .checkmark-icon {
    margin-left: 5px;
 }
+
 .h1-container,
 .h2-container {
    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
    padding-bottom: 8px;
-   margin: 30px 0 12px;
+   margin: 0 0 12px;
 }
+
+.h2-container {
+   margin: 30px 0 12px;
+   &__title {
+      display: inline-block;
+      font-size: 24px;
+      line-height: 30px;
+      font-weight: 600;
+   }
+}
+
+.code {
+   font-size: 14px;
+   line-height: 20px;
+   font-weight: 400;
+   color: #24292e;
+   background-color: rgba(27, 32, 36, 0.05);
+   border-radius: 3px;
+   width: fit-content;
+   padding: 3px 5px;
+}
+
+.code-block {
+   &__container {
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 400;
+      color: #24292e;
+      background-color: rgba(27, 32, 36, 0.05);
+      border-radius: 3px;
+      height: auto;
+   }
+}
+
+.text {
+   font-size: 16px;
+   line-height: 24px;
+   font-weight: 400;
+   &__quoted {
+      color: rgb(106, 115, 125);
+      padding-left: 30px;
+      border-left: 4px solid rgb(223, 226, 230);
+   }
+}
+
+.table {
+   border-collapse: collapse;
+   margin-top: 12px;
+   &__row,
+   &__header,
+   &__cell {
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      font-size: 16px;
+      line-height: 24px;
+      padding: 6px 13px;
+   }
+   &__cell:first-of-type {
+      text-align: center;
+   }
+}
+
+.link {
+   text-decoration: none;
+}
+
+hr {
+   height: 4px;
+   background-color: rgb(225, 228, 232);
+   margin: 24px 0;
+}
+
+//---------------------- / Common
+
 //------------------------ About me container
+
 .me {
    &__name {
       display: inline-block;
@@ -54,39 +156,42 @@ body {
       font-style: italic;
    }
 }
+
 .about-me {
-   &__title {
-      display: inline-block;
-      font-size: 24px;
-      line-height: 30px;
-      font-weight: 600;
-   }
-
-   &__text {
-      font-size: 16px;
-      line-height: 24px;
-      font-weight: 400;
-   }
-
    &__avatar {
       float: right;
    }
+}
 
-   &__experience-table {
-      border-collapse: collapse;
-      margin-top: 12px;
-   }
-   &__experience-row,
-   &__experience-header,
-   &__experience-cell {
-      border: 1px solid rgba(0, 0, 0, 0.1);
-      font-size: 16px;
-      line-height: 24px;
-      padding: 6px 13px;
-   }
+//----------------------- / About me container
 
-   &__experience-cell:first-of-type {
-      text-align: center;
+//------------------------  Skills container
+
+.skills {
+   &__list {
+      list-style-position: inside;
+   }
+   &__item {
+      padding-left: 12px;
    }
 }
-//----------------------- / About me container
+
+.skills {
+   &__sub-list {
+      list-style-position: inside;
+      list-style-type: circle;
+      padding-left: 12px;
+      padding: 0 33px;
+      margin: 8px 0;
+   }
+
+   &__sub-item {
+      margin-top: 8px;
+   }
+}
+
+//----------------------- / Skills container
+
+.quote__quoted-text {
+   margin: 24px 0;
+}
