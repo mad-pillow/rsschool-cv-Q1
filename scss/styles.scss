@@ -28,14 +28,14 @@ body {
 
 .wrapper {
    width: 1160px;
-   margin: 12px auto;
+   margin: 20px auto;
    padding: 40px 40px 40px 110px;
+   background-color: rgb(252, 251, 241);
    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(0, 0, 0, 0.5);
    position: relative;
    &:after,
    &:before {
       position: absolute;
-      //display: block;
       content: '';
       left: 40px;
       width: 25px;
@@ -43,6 +43,7 @@ body {
       border-radius: 50%;
       border: 1px solid rgba(0, 0, 0, 0.3);
       box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5), inset 0px 0px 5px rgba(0, 0, 0, 0.8);
+      background-color: #fff;
    }
    &:after {
       top: calc(50% + 250px);
@@ -135,9 +136,10 @@ hr {
 
 //---------------------- / Common
 
-//------------------------ About me container
+//----------------------   Header
 
-.me {
+.header {
+   position: relative;
    &__name {
       display: inline-block;
       font-size: 32px;
@@ -156,6 +158,19 @@ hr {
       font-style: italic;
    }
 }
+header::before {
+   position: absolute;
+   content: '';
+   background-image: url('../images/paperclip.png');
+   width: 66px;
+   height: 120px;
+   top: -29px;
+   left: 10px;
+}
+
+//---------------------- / Header
+
+//----------------------   About me container
 
 .about-me {
    &__avatar {
