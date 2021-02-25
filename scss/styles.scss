@@ -1,137 +1,137 @@
 @font-face {
-   font-family: 'Helvetica';
-   src: url('../fonts/Helvetica-Bold.ttf');
-   font-weight: bold;
-   font-style: normal;
+  font-family: 'Helvetica';
+  src: url('../fonts/Helvetica-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
 }
 
 @font-face {
-   font-family: 'Helvetica';
-   src: url('../fonts/Helvetica-Normal.ttf');
-   font-weight: normal;
-   font-style: normal;
+  font-family: 'Helvetica';
+  src: url('../fonts/Helvetica-Normal.ttf');
+  font-weight: normal;
+  font-style: normal;
 }
 
 //------------------------ Common
 
 * {
-   margin: 0;
-   padding: 0;
-   border: 0;
-   outline: none;
-   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
 }
 
 body {
-   font-family: 'Helvetica', sans-serif;
+  font-family: 'Helvetica', sans-serif;
 }
 
 .wrapper {
-   width: 1160px;
-   margin: 20px auto;
-   padding: 40px 40px 40px 110px;
-   background-color: rgb(252, 251, 241);
-   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(0, 0, 0, 0.5);
-   position: relative;
-   &:after,
-   &:before {
-      position: absolute;
-      content: '';
-      left: 40px;
-      width: 25px;
-      height: 25px;
-      border-radius: 50%;
-      border: 1px solid rgba(0, 0, 0, 0.3);
-      box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5), inset 0px 0px 5px rgba(0, 0, 0, 0.8);
-      background-color: #fff;
-   }
-   &:after {
-      top: calc(50% + 250px);
-   }
-   &:before {
-      top: calc(50% - 250px);
-   }
+  width: 1160px;
+  margin: 20px auto;
+  padding: 40px 40px 40px 110px;
+  background-color: rgb(252, 251, 241);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(0, 0, 0, 0.5);
+  position: relative;
+  &:after,
+  &:before {
+    position: absolute;
+    content: '';
+    left: 40px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5), inset 0px 0px 5px rgba(0, 0, 0, 0.8);
+    background-color: #fff;
+  }
+  &:after {
+    top: calc(50% + 250px);
+  }
+  &:before {
+    top: calc(50% - 250px);
+  }
 }
 
 .checkmark-icon {
-   margin-left: 5px;
+  margin-left: 5px;
 }
 
 .h1-container,
 .h2-container {
-   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-   padding-bottom: 8px;
-   margin: 0 0 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 8px;
+  margin: 0 0 12px;
 }
 
 .h2-container {
-   margin: 30px 0 12px;
-   &__title {
-      display: inline-block;
-      font-size: 24px;
-      line-height: 30px;
-      font-weight: 600;
-   }
+  margin: 30px 0 12px;
+  &__title {
+    display: inline-block;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+  }
 }
 
 .code {
-   font-size: 14px;
-   line-height: 20px;
-   font-weight: 400;
-   color: #24292e;
-   background-color: rgba(27, 32, 36, 0.05);
-   border-radius: 3px;
-   width: fit-content;
-   padding: 3px 5px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #24292e;
+  background-color: rgba(27, 32, 36, 0.05);
+  border-radius: 3px;
+  width: fit-content;
+  padding: 3px 5px;
 }
 
 .code-block {
-   &__container {
-      font-size: 14px;
-      line-height: 20px;
-      font-weight: 400;
-      color: #24292e;
-      background-color: rgba(27, 32, 36, 0.05);
-      border-radius: 3px;
-      height: auto;
-   }
+  &__container {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #24292e;
+    background-color: rgba(27, 32, 36, 0.05);
+    border-radius: 3px;
+    height: auto;
+  }
 }
 
 .text {
-   font-size: 16px;
-   line-height: 24px;
-   font-weight: 400;
-   &__quoted {
-      color: rgb(106, 115, 125);
-      padding-left: 30px;
-      border-left: 4px solid rgb(223, 226, 230);
-   }
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  &__quoted {
+    color: rgb(106, 115, 125);
+    padding-left: 30px;
+    border-left: 4px solid rgb(223, 226, 230);
+  }
 }
 
 .table {
-   border-collapse: collapse;
-   margin-top: 12px;
-   &__row,
-   &__header,
-   &__cell {
-      border: 1px solid rgba(0, 0, 0, 0.1);
-      font-size: 16px;
-      line-height: 24px;
-      padding: 6px 13px;
-   }
-   &__cell:first-of-type {
-      text-align: center;
-   }
+  border-collapse: collapse;
+  margin-top: 12px;
+  &__row,
+  &__header,
+  &__cell {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    line-height: 24px;
+    padding: 6px 13px;
+  }
+  &__cell:first-of-type {
+    text-align: center;
+  }
 }
 
 .link {
-   text-decoration: none;
+  text-decoration: none;
 }
 
 hr {
-   height: 4px;
-   background-color: rgb(225, 228, 232);
-   margin: 24px 0;
+  height: 4px;
+  background-color: rgb(225, 228, 232);
+  margin: 24px 0;
 }
 
 //---------------------- / Common
@@ -139,33 +139,39 @@ hr {
 //----------------------   Header
 
 .header {
-   position: relative;
-   &__name {
-      display: inline-block;
-      font-size: 32px;
-      line-height: 40px;
-      font-weight: 600;
-   }
+  position: relative;
+  &__name {
+    display: inline-block;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+  }
 
-   &__contacts {
-      font-size: 16px;
-      line-height: 24px;
-      font-weight: 400;
-      margin-top: 12px;
-   }
+  &__contacts {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 12px;
+    list-style: none;
+  }
 
-   &__contacts--italic {
-      font-style: italic;
-   }
+  &__contacts-item {
+    display: inline;
+  }
+
+  &__contacts--italic {
+    font-style: italic;
+  }
 }
 header::before {
-   position: absolute;
-   content: '';
-   background-image: url('../images/paperclip.png');
-   width: 66px;
-   height: 120px;
-   top: -29px;
-   left: 10px;
+  position: absolute;
+  content: '';
+  background-image: url('../images/paperclip.png');
+  width: 66px;
+  height: 120px;
+  top: -29px;
+  left: 10px;
 }
 
 //---------------------- / Header
@@ -173,9 +179,9 @@ header::before {
 //----------------------   About me container
 
 .about-me {
-   &__avatar {
-      float: right;
-   }
+  &__avatar {
+    float: right;
+  }
 }
 
 //----------------------- / About me container
@@ -183,30 +189,30 @@ header::before {
 //------------------------  Skills container
 
 .skills {
-   &__list {
-      list-style-position: inside;
-   }
-   &__item {
-      padding-left: 12px;
-   }
+  &__list {
+    list-style-position: inside;
+  }
+  &__item {
+    padding-left: 12px;
+  }
 }
 
 .skills {
-   &__sub-list {
-      list-style-position: inside;
-      list-style-type: circle;
-      padding-left: 12px;
-      padding: 0 33px;
-      margin: 8px 0;
-   }
+  &__sub-list {
+    list-style-position: inside;
+    list-style-type: circle;
+    padding-left: 12px;
+    padding: 0 33px;
+    margin: 8px 0;
+  }
 
-   &__sub-item {
-      margin-top: 8px;
-   }
+  &__sub-item {
+    margin-top: 8px;
+  }
 }
 
 //----------------------- / Skills container
 
 .quote__quoted-text {
-   margin: 24px 0;
+  margin: 24px 0;
 }

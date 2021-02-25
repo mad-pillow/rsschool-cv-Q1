@@ -151,10 +151,16 @@ hr {
 }
 
 .header__contacts {
+  width: 100%;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
   margin-top: 12px;
+  list-style: none;
+}
+
+.header__contacts-item {
+  display: inline;
 }
 
 .header__contacts--italic {
