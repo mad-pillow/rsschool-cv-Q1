@@ -213,6 +213,39 @@ header::before {
 
 //----------------------- / Skills container
 
+//----------------------- Footer
+
 .quote__quoted-text {
   margin: 24px 0;
 }
+
+.recommended-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  &__github-link {
+    text-decoration: none;
+    line-height: 30px;
+    display: block;
+    background-image: url('../images/github.svg');
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    width: 40px;
+    aspect-ratio: 1 / 1;
+  }
+
+  &__school-link {
+    background-image: url('../images/rs_school_js.svg');
+    background-size: cover;
+    background-position: center;
+
+    display: inline-block;
+    width: 100px;
+    aspect-ratio: 553 / 205;
+  }
+}
+
+//----------------------- / Footer
