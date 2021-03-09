@@ -191,11 +191,16 @@ header::before {
 }
 
 .skills__list {
+  list-style: none;
   list-style-position: inside;
 }
 
 .skills__item {
   padding-left: 12px;
+}
+
+.skills__item::marker {
+  content: counter(list-item) ". ";
 }
 
 .skills__sub-list {
