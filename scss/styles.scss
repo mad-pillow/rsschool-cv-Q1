@@ -54,7 +54,19 @@ body {
 }
 
 .checkmark-icon {
-  margin-left: 5px;
+  position: relative;
+  &::after {
+    margin-left: 10px;
+    background-image: url('../images/check.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    content: '';
+    left: 100%;
+    top: 0;
+    width: 20px;
+    height: 26px;
+  }
 }
 
 .h1-container,
@@ -74,7 +86,7 @@ body {
   }
 }
 
-.code {
+.highlight {
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
@@ -158,10 +170,6 @@ hr {
 
   &__contacts-item {
     display: inline;
-  }
-
-  &__contacts--italic {
-    font-style: italic;
   }
 }
 header::before {
